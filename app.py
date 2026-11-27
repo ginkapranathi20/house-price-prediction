@@ -29,7 +29,7 @@ try:
     yr_built = st.number_input("Year Built", min_value=1800, max_value=2026, value=2000)
     yr_renovated = st.number_input("Year Renovated", min_value=0, max_value=2026, value=0)
     city = st.text_input("City", value="Seattle")
-   statezip = st.text_input("State ZIP", value="WA 98133")
+    statezip = st.text_input("State ZIP", value="WA 98133")
     country = st.text_input("Country", value="USA")
 
     if st.button("Predict House Price"):
